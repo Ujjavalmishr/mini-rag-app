@@ -44,19 +44,19 @@ Frontend (Next.js) → API Routes → Processing → Vector DB → OpenAI
 
    Create a .env.local file in the root directory:
 
-  -PINECONE_API_KEY=your_pinecone_api_key_here
-  -PINECONE_INDEX_NAME=your_index_name_here
-  -PINECONE_ENVIRONMENT=your_environment_here
+  - PINECONE_API_KEY=your_pinecone_api_key_here
+  - PINECONE_INDEX_NAME=your_index_name_here
+  - PINECONE_ENVIRONMENT=your_environment_here
 
 4. Pinecone Setup
 
-  -Create a Pinecone account at pinecone.io
+  - Create a Pinecone account at pinecone.io
 
-  -Create a new index with:
+  - Create a new index with:
 
-  -Dimensions: 384
+  - Dimensions: 384
 
-  -Metric: cosine
+  - Metric: cosine
 
 5. Run the development server
    bash
