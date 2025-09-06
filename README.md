@@ -84,8 +84,9 @@ mini-rag-app/
 
 # 🛠️ Development
 
-npm install -g vercel
-vercel --env OPENAI_API_KEY=your_key --env PINECONE_API_KEY=your_key
+- npm install -g vercel
+- vercel --env 
+- PINECONE_API_KEY=your_key
 
 
 # 👨‍💻 Author
