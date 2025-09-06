@@ -59,8 +59,9 @@ Frontend (Next.js) → API Routes → Processing → Vector DB → OpenAI
   - Metric: cosine
 
 5. Run the development server
-   bash
-   npm run dev
+
+  - bash
+  - npm run dev
 
 # Project Structure
 mini-rag-app/
